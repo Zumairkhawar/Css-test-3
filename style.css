@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.responsive img{
+    width: 100%;
+    height: 300px;
+    padding-top: 20px;
+}
+.sub-header{
+    background-position: center;
+    background-image: url(img/hero_bg_2.jpg.webp);
+    padding-bottom: 70px;
+    background-attachment: fixed;   
+}
+.sub-header-2{
+    background-position: center;
+    background-image: url(img/hero_bg_1.jpg.webp);
+    padding-bottom: 70px;
+    height: 600px;
+    background-attachment: fixed;   
+}
+.main-header{
+    background-position: center;
+    background-image: url(img/hero_bg_1.jpg.webp);
+    background-attachment: fixed;
+}
+.text-underline{
+    text-decoration: none;
+    cursor: pointer;
+}
+.list-icon{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    list-style: none;
+    margin: 0;
+    margin-top: 10px !important;
+    padding: 0;
+}
+.list-item{
+    display: flex;
+    cursor: pointer;
+    list-style: none;
+    justify-content: end;
+    gap: 15px;
+}
+.list-item li a{
+    color: black;
+}
+.mt{
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+.pointer{
+    cursor: pointer;
+}
+.pointer:hover{
+    background-color: red;
+}
+.pointer:active{
+    background-color: red   ;
+}
+.width{
+    width: 12%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.m-t{
+    margin-top: 80px;
+}
+.murch{
+    display: flex;
+    justify-content: space-between;
+}
+.b{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.fs{
+ font-size: 80px;
+ font-weight: 500;
+ line-height: 1;
+}
+.bol{
+    font-weight: bold;
+}
+.cards{
+    box-shadow: 10px 10px 50px whitesmoke;
+}
+.cards p{
+    padding-top: 30px;
+    text-align: center;
+}
+.colour-rapped{
+    background: #ece8d9 !important;
+}
+.left-part p{
+    font-size: 20px;
+}
+.bt-n{
+    background-color: #f23a2e ;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    width: 50%;
+}
+.bt-n:hover{
+    transition: 0.3s;
+    box-shadow: 5px 5px 20px rgb(172, 170, 170);
+}
+.left-part strong{
+    display: block;
+}
+.mb{
+    margin-bottom: 80px;
+}
+.sec-6 img{
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+}
+.sec-4{
+    margin-top: 100px;
+    background-color: #f23a2e ;
+    border-radius: 20px;
+    padding: 10px;
+    background-attachment: fixed;
+    padding: 30px;
+    color: white;
+}
+.section-4{
+    background-color: #f23a2e ;
+    border-radius: 20px;
+    padding: 10px;
+    background-attachment: fixed;
+    padding: 30px;
+    color: white;
+}
+.sec-4-para{
+    color: rgb(139, 136, 136);
+}
+.footer-site{
+    background-color: #333333;
+    padding: 3rem;
+}
+.footer-site  li{
+    display: block;
+    padding-top: 10px;
+    color: rgb(168, 168, 168);
+}
+.para{
+    line-height: 0.9;
+}
+.float-right{
+    display: flex;
+    gap: 20px;
+}
+.float-right li{
+    list-style: none;
+}
+.pad{
+    padding: 3rem;
+}
+.cardss img{
+    height: 140px;
+    max-width: 140px;
+}
+.cards-img img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 50px;
+    max-width: 50px;
+}
+.cardss-img img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 200px;
+    max-width: 200px;
+}
+.card-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    }
+    .card-item img{
+        border-radius: 10px;
+        height: 300px;
+        width: 100%;
+        transition: 0.3s all ease-in-out;
+    }
+    .card-item:hover img {
+        transform: scale(1.1);
+    }
+    .site-items ul{
+        list-style: none;
+        margin-top: 50px;
+        text-align: center;
+        display: flex;
+        margin-left: ;
+        justify-content: space-around;
+    }
+    .site-items ul li{
+        padding: 5px;
+        border: 1px solid #333333;
+        border-radius: 100px;
+        gap: 15px;
+        width: 9%;
+        text-align: center;
+    }
+    .site-items ul li a{
+        text-decoration: none;
+        padding: 5px;
+        border:2 solid black;
+        border-radius: 100px;
+        width: 9%;
+        text-align: center;
+    }
+    .cardss{
+        transition: 0.8s !important;
+        padding: 30px !important;
+    }
+    .cardss:hover{
+        background-color: #fff;
+        box-shadow: 10px 10px 20px whitesmoke;
+    }
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+      }
+      
+      /* Style the buttons inside the tab */
+      .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+      }
+      
+      /* Change background color of buttons on hover */
+      .tab button:hover {
+        background-color: #ddd;
+      }
+      
+      /* Create an active/current tablink class */
+      .tab button.active {
+        background-color: #ccc;
+      }
+      
+      /* Style the tab content */
+      .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+      }
+      .section-8{
+        padding-bottom: 30px;
+      }
